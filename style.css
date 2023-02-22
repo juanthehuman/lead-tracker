@@ -1,0 +1,52 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-width: 400px;
+}
+
+#main {
+    margin-right: 10px;
+}
+
+#main .text-field input[type=text] {
+    height: 30px;
+    width: 100%;
+    margin: 0 0 5px 0;
+    border: 1px solid rgb(102, 153, 153);
+    padding: 5px;
+}
+
+#main .btn-section button {
+    width: 30%;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 1px solid rgb(102, 153, 153);
+    background: rgb(102, 153, 153);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#main .btn-section span button {
+    width: 30%;
+    height: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border: 1px solid rgb(102, 153, 153);
+    background: rgb(255, 255, 255);
+    color: rgb(102, 153, 153);
+    cursor: pointer;
+}
+
+#main ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#main ul li {
+    margin: 5px 0;
+}
+
+#main ul li a {
+    color: rgb(102, 153, 153);
+}
